@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+#imglogo{
+    width:130px;
+    height:130px;
+}
+
+h1,a,header,footer,h2{
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a{
+    color:antiquewhite;
+
+}
+h1{
+    font-size:60px;
+    margin-bottom:60px;
+    text-align:center;
+    color:#584635;
+}
+
+body{
+    background-color:white ;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    padding:30px,15px;
+    background-color:#584635;
+    justify-content:space-between;
+    margin-bottom:100px;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    background-color:#563e27;
+    padding:20px;
+    margin-top:100px;
+    font-size:20px;
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    background-color: white;
+    width:450px;
+    height:380px;  
+}
+article h2{
+    color:#584635;
+    font-size:40px;
+}
+section{
+    padding-bottom:40px;
+}
+p,li{
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+  font-size:35px;
+  text-align:justify;
+  padding-left:30px;
+
+}
+
+article img{
+    width:210px;
+    height:230px;
+    border-radius:8px;
+}
+
+.menu{
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+}
+address{
+    color:white;
+}
+section #proyectos{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

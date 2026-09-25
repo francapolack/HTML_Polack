@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:#e0e8d4;
+}
+
+#imglogo{
+    width:130px;
+    height:130px;
+}
+h1,h2,a{
+  font-family: "Squada One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+    color:#557881;
+    font-style:italic;
+
+}
+h1{
+    font-size:60px;
+    margin-bottom:60px;
+    text-align:center;
+}
+
+h5{
+    font-style:italic;
+    color:#2a5200;
+}
+
+body{
+    background-color:#061414 ;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    padding:30px,15px;
+    background-color:#b7e71a;
+    justify-content:space-between;
+    margin-bottom:100px;
+
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size:30px;
+    font-style: normal;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    background-color:#f6ffd8;
+    padding:20px;
+    margin-top:100px;
+    font-size:20px;
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 5px 15px;
+    border: 3px solid #061414;
+    border-radius: 6px;
+    margin-right: 10px;
+
+    
+    
+}
+article h2{
+    color:#65c003;
+    font-size:40px;
+}
+article p,article h5{
+    color:#b6e995;
+    font-size:20px;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"HEXP" 0;
+}
+article h5{
+    font-size:15px;
+}
+
+img{
+    width:90px;
+    height:90px;
+}
+
+div article{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    transition: transform 0.3s ease-out;
+}
+div article:hover{
+    transform: scale(1.1);
+}
+
+.menu article{
+    display: flex;
+    flex-direction: column;
+}
+
+address{
+    color:#557881;
+}
