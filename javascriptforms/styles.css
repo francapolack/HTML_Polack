@@ -1,0 +1,17 @@
+*{
+    box-sizing:border-box;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+}
+
+form{
+    height:100px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+}
+
+button{
+    margin-top:10px;
+    background-color:turquoise;
+    color:rgb(232, 255, 247);
+}

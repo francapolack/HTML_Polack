@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerfit</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+
+   
+
+</head>
+<body>
+    <header>
+            <img title="logo" src="./imagenes/POWERFIT.png" id="imglogo"> <!--TODO:reemplazar con imagen asi queda mas lindo despues-->
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#clases">Clases</a>
+                <a href="entrenadores.html">Entrenadores</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+    </header>
+    <main>
+        <section id="clases">
+            <h1>Clases Disponibles</h1>
+            <div class="menu">
+                <article>
+                    <h2>Musculacion</h2>
+                    <p>Fortalece los músculos, aumenta la fuerza y desarrolla la masa muscular mediante el uso de pesas o resistencia.</p>
+                    <h3>Horarios: Lunes a Miercoles de 8:30 a 10:30hs</h3>
+                    <h5>Entrenador:Miguel</h5>
+                    <a href="entrenadores.html">Ver mas sobre entrenadores...</a>
+                </article>
+            </div>
+            <div class="menu">
+                <article>
+                    <h2>Crossfit</h2>
+                    <p>Acondicionamiento físico que combina ejercicios funcionales de alta intensidad, levantamiento de pesas y gimnasia.</p>
+                    <h3>Horarios: Sabados y domingos de 18:30 a 21:30hs</h3>
+                    <h5>Entrenador:Susana</h5>
+                    <a href="entrenadores.html">Ver mas sobre entrenadores...</a>
+                </article>
+            </div>
+            <div class="menu">
+                <article>
+                    <h2>Yoga</h2>
+                    <p>Integra el cuerpo, la respiración y la mente para promover el bienestar integral</p>
+                    <h3>Horarios: Martes a Viernes de 8:30 a 10:30hs</h3>
+                    <h5>Entrenador:Felipe<h5>
+                    <a href="entrenadores.html">Ver mas sobre entrenadores...</a>
+                </article>
+            </div>
+        </section>
+        
+    </main>
+    <div>
+            <h2 class="titulo">Anotate a una clase</h2>
+            <p class="textonormal">Agenda una de las clases disponibles </p>
+            <form id="form" action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="nombre">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+                <label for="telefono">Número de telefono:</label>
+                <input type="tel" name="telefono" id="telefono">
+                <label for="clase">Clase a atender:</label>
+                <select name="clase" id="clase">
+                    <option value="yoga">Yoga</option>
+                    <option value="musculacion">Musculación</option>
+                    <option value="crossfit">Crossfit</option>
+                </select>
+                <button type="button">Agendar</button>
+            </form>
+    </div>
+</body>
+<footer id="contacto">
+    <address>Belgrano 331, Alta Gracia
+        Para reservas de clases:
+        <a href="mailto:powerfit@gmail.com">powerfit@gmail.com</a>
+        <a href="tel:+5491555890123">+54 9 1555 890123</a>
+    </address></footer>
+</html>

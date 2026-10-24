@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./imagenes/Fran.png" alt="" style="width:90px;height:90px;">
+        <nav>
+            <a href="#sobremi">Sobre Mi</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacta">Contactame</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="presentacion">
+            <div id="columnatxto">
+                <p class="textogrande">Hola<span>&#x1F44B;</span>,</p>
+                <p class="textogrande">my nombre es</p>
+                <h1 id="hellou">franca polack</h1>
+                <p class="textogrande">y me gusta programar<span>&#x1F60B;</span></p>
+            </div>
+            
+            <img id="icono" src="imagenes/foto.jpg">
+        </div>
+    </main>
+
+        <section id="sobremi">
+            <h1 style="text-align:center;">Sobre mi</h1>
+            <div class="caja" id="presentacioncaja">
+                <h2>Soy una estudiante de 6to año de Programación, me gusta la fotografia, la astronomia y la programación </h2>
+            </div>  
+        </section>
+
+        <section id="habilidades">
+            <h1 style="text-align:center;">Habilidades</h1>
+             <div class="caja">
+                <img id="python"src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" alt="" class="skill">
+                <div class="txtoescondido"id="pythontxt">Python y proyectos de Machine Learning desarrollados con este lenguaje</div>
+                <img id="html"src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/3840px-HTML5_logo_and_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="" class="skill">
+                <div id="htmltxto" class="txtoescondido">HTML para desarrollo web</div>
+                <img id="css"src="https://images.seeklogo.com/logo-png/18/1/css3-logo-png_seeklogo-186678.png" alt="" class="skill">
+                <div id="csstxto"class="txtoescondido">CSS para desarrollo web</div>
+                <img id="arduino"src="https://arduinojson.org/images/2018/10/cpp4arduino.png" alt="" class="skill">
+                <div id="arduinotxto" class="txtoescondido">C++ orientado a Arduino para desarrollo de robotica</div>
+                <img id="linux"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNx3KNSbYulXE-kBsxiCvYk1aRQ4mw2I6vxkCyjwjNxQ&s=10" alt="" class="skill">
+                <div id="linuxtxto"class="txtoescondido">Manejo e instalacion de sistemas pertenecientes a Linux/GNU</div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h1 style="text-align:center;">Proyectos</h1>
+            <div class="caja" style="padding:10px 20px 30px;">
+                <div class="tarjeta">
+                    <article>
+                        <h2>Medidas ambientales en satelite</h2>
+                        <h3>Noviembre 2025</h3>
+                        <h4 style="color:rgb(13, 152, 140);">C++</h4>
+                        <div class="imagenarticle">
+                            <img src="imagenes/Captura de pantalla 2026-10-23 195929.png" alt="">
+                        </div>
+                        <p>En donde programe un modulo BMP180 para que lea presion atmosferica, temperatura y altitud de un modelo de CubeSAT</p>
+                    </article>
+                </div>
+
+                <div class="tarjeta">
+                    <article>
+                        <h2>HermeSAT:Predicción de posicion satelital</h2>
+                        <h3>Junio 2026</h3>
+                        <h4 style="color:blue;">Python, Machine Learning</h4>
+                        <div class="imagenarticle">
+                            <img src="imagenes/Captura de pantalla 2026-10-23 200511.png" alt="">
+                        </div>
+                        <p>Entrenada una IA (YOLOV8) para reconocimiento de constelaciones, el programa de Python calcula la altitud del satelite basado en las constelaciones que ve</p>
+                    </article>
+                </div>
+
+                <div class="tarjeta">
+                    <article>
+                        <h2>Página Personal</h2>
+                        <h3>Agosto 2026</h3>
+                        <h4 style="color:orangered;">HTML,CSS</h4>
+                        <div class="imagenarticle">
+                            <img src="imagenes/Captura de pantalla 2026-10-23 200743.png" alt="">
+                        </div>        
+                        <p>Página personal en desarrollo para mostrar proyectos de programacion, robotica y fotografia</p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contacta">
+            <h1 style="text-align:center;">Contactame!</h1>
+            <div class="caja">
+                <figure>
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" class="logo">
+                    <figcaption><a href="https://github.com/francapolack">Github</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQna-ft1aFuhXzZy2hgjMrRHZqK46jSyUO5lDBkPWjhhyVsFfwsz39ThxQ&s=10" alt="" class="logo">
+                    <figcaption><a href="https://linkedin.com/in/franca-polack">LinkedIn</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/023/986/885/small/instagram-logo-instagram-logo-transparent-instagram-icon-transparent-free-free-png.png" alt="" class="logo">
+                    <figcaption><a href="https://www.instagram.com/francapolack/?hl=es">Instagram</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://freepngimg.com/thumb/email_marketing/140780-symbol-email-png-download-free.png" alt="" class="logo">
+                    <figcaption><a href="mailto:francapolack08@gmail.com">E-mail</a></figcaption>
+                </figure>  
+            </div>
+        </section>
+</body>
+</html>

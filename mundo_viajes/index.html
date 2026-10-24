@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Viajes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
+   
+
+</head>
+<body>
+    <header>
+            <img title="logo" src="./imagenes/mundoviajes.png" id="imglogo"> 
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#promociones">Promociones</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+    </header>
+    <main>
+        <section id="destinos">
+            <h1>Destinos</h1>
+            <div class="menu">
+                <div>
+                    <article>
+                        <h2 id="oferta">Playa</h2>
+                        <img src="https://i.pinimg.com/736x/dd/c3/04/ddc304140447bc24daff165ac21341a0.jpg">
+                        <p>3 semanas en una playa del caribe</p>
+                    </article>
+                </div>
+                <div class="menu">
+                    <article>
+                        <h2>Montaña</h2>
+                        <img src="https://i.pinimg.com/1200x/51/14/cd/5114cd8c3396cb6eceb8273d39b18d58.jpg">
+                        <p>1 tour con guia por montañas del sur</p>
+                    </article>
+                </div>
+                <div class="menu">
+                    <article>
+                        <h2>Ciudad</h2>
+                        <img src="https://i.pinimg.com/1200x/da/cc/a6/dacca65fb584404c835e53a5647e9126.jpg">
+                        <p>1 semana con tours de una ciudad antigua</p>
+                </div>
+        </div>
+
+        <section id="ofertas">
+            <div id="ofertadiv">
+                <h1 style="color:black;">OFERTA DEL MES:</h1>
+                <p><a href="#oferta">Playa en 10 cuotas FIJAS</a></p>
+            </div>
+            
+        </section>
+    </main>
+
+        <section>
+
+        <div id="formulario">
+            <h2 class="titulo">Agenda una consulta</h2>
+            <p class="textonormal">Agenda una consulta para que armemos tu viaje perfecto</p>
+            <form id="form" action="" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="telefono">Número de telefono:</label>
+                <input type="tel" name="telefono" id="telefono">
+                <label for="viaje">Viaje deseado:</label>
+                <select name="viaje" id="viaje">
+                    <option value="playa">Playa</option>
+                    <option value="montaña">Montaña</option>
+                    <option value="ciudad">Ciudad</option>
+                </select>
+                <button type="submit">Agendar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+<footer id="contacto">
+    <address>
+        <a href="mailto:mundoviajes@gmail.com">mundoviajes@gmail.com</a>
+        <a href="instagram/mundoviajes/">@mundoviajes</a>
+    </address></footer>
+</html>
